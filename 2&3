@@ -1,0 +1,69 @@
+#include <stdio.h>
+
+
+
+//2. Write a program to perform addition, subtraction, multiplication, division, and modulus of two numbers
+
+#include <stdio.h>
+
+int main() {
+
+float a,b ;
+printf("enter a");
+scanf("%f", &a);
+
+printf("enter b");
+scanf("%f", &b);
+
+printf("summation : %f \n", a+b);
+printf("subtraction : %f \n", a-b);
+printf("multiplication : %f \n", a*b);
+printf("modulus : %f \n", a/b);
+
+
+
+#include <stdio.h>
+
+int main() {
+//3.Write a program to calculate the area and perimeter of a circle, rectangle, and triangle.
+//rectangle
+float R_length, R_breadth;
+
+printf("enter R_length");
+scanf("%f", &R_length);
+
+printf("enter R_breadth");
+scanf("%f", &R_breadth);
+
+printf("area of rectangle: %f \n", R_length*R_breadth);
+printf("perimeter of rectangle: %f \n", 2*(R_length+R_breadth));
+
+//circle
+float radius;
+float pi= 3.14;
+
+printf("enter radius");
+scanf("%f", &radius);
+
+printf("area of circle: %f \n", pi*radius*radius);
+printf("circumference of circle: %f \n", 2*pi*radius);
+
+//triangle
+float  T_side1, T_side2, T_side3, height, base;
+
+printf("enter three sides of triangle");
+scanf("%f, %f, %f", &T_side1, &T_side2, &T_side3);
+
+printf("perimeter of triangle: %f \n", T_side1+T_side2+T_side3);
+
+
+printf("enter base");
+scanf("%f", &base);
+
+printf("enter height");
+scanf("%f", &height);
+
+printf("area of triangle: %f \n",0.5*(base*height));
+
+    return 0;
+}
