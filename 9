@@ -1,0 +1,24 @@
+#include<stdio.h>
+
+int main(){
+    float temp , choice;
+    printf("enter the numerical value of temp ");
+    scanf("%f", &temp);
+
+    char ch;
+    printf("choose the unit of entered value(C,F)");
+    scanf(" %c", &ch);
+
+    switch(ch)
+        {
+            case'C':
+            printf("temp in F: %f", (temp*9/5)+32);
+            break;
+
+            case'F':
+            printf("temp in C: %f", (temp-32)/1.8);
+            break;
+
+            return 0;
+            
+        }}
